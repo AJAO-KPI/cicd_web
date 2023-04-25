@@ -37,11 +37,11 @@ jobs:
           name: production-files
           path: ./build/web
 
-  deploy:
-    name: Deploy
-    needs: build
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
+#  deploy:
+#    name: Deploy
+#    needs: build
+#    runs-on: ubuntu-latest
+#    if: github.ref == 'refs/heads/master'
 
 #    steps:
 #      - name: Download artifact
